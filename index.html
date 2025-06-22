@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BrightWord Blog</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f4f6f8; margin:0; }
+    header { background:#004080; color:white; padding:20px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    main { max-width:900px; margin:30px auto; padding:0 20px; }
+    .post { background:white; padding:20px; margin-bottom:20px;
+            box-shadow:0 2px 5px rgba(0,0,0,0.1); border-radius:8px; }
+    .post h2 { margin-top:0; color:#004080; }
+    .contact-form { background:white; padding:20px; margin-bottom:40px;
+                    box-shadow:0 2px 5px rgba(0,0,0,0.1); border-radius:8px; }
+    .contact-form label { display:block; margin-top:10px; }
+    .contact-form input, .contact-form textarea {
+      width:100%; padding:10px; margin-top:5px;
+      border:1px solid #ccc; border-radius:4px; box-sizing:border-box;
+    }
+    .contact-form button, .whatsapp-button {
+      background:#004080; color:white; padding:10px 20px;
+      border:none; margin-top:15px; border-radius:4px; cursor:pointer;
+      text-decoration:none; display:inline-block;
+    }
+    .contact-form button:hover, .whatsapp-button:hover { background:#003366; }
+    footer { background:#222; color:white; text-align:center; padding:20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BrightWord</h1>
+  <nav>
+    <a href="#posts">Home</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="posts">
+  <div class="post">
+    <h2>Motivation: Believe in Yourself</h2>
+    <p>Every small step counts. Believe in your potential and keep pushing forward.</p>
+  </div>
+
+  <div class="post">
+    <h2>Tech News: AI Breakthroughs Today</h2>
+    <p>AI continues to transform industries—today's top news: new GPT upgrades making it smarter!</p>
+  </div>
+
+  <div class="post">
+    <h2>Motivation: Embrace Challenges</h2>
+    <p>Challenges are opportunities in disguise. Face them head-on and grow stronger.</p>
+  </div>
+
+  <div id="contact" class="contact-form">
+    <h2>Contact Us</h2>
+    <form onsubmit="alert('Thanks! We will reply soon.'); this.reset(); return false;">
+      <label>Name<input type="text" required></label>
+      <label>Email<input type="email" required></label>
+      <label>Message<textarea rows="4" required></textarea></label>
+      <button type="submit">Send Message</button>
+    </form>
+    <br>
+    <a class="whatsapp-button" href="https://wa.me/2348060869817" target="_blank">
+      Message Us on WhatsApp
+    </a>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 BrightWord • brightanazodo661@gmail.com
+</footer>
+
+</body>
+</html
